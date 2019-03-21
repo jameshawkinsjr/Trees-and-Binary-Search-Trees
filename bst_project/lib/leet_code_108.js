@@ -17,7 +17,7 @@ function TreeNode(val) {
 }
 
 function sortedArrayToBST(nums) {
-    if (nums.length === 0) return null;
+        if (nums.length === 0) return null;
 
     let midIdx = Math.floor(nums.length / 2);
     let left = nums.slice(0,midIdx);
